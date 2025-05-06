@@ -1,0 +1,144 @@
+    1  /cita/local/bin/passwd
+    2  cosmo3.cita.utoronto.ca:6
+    3  ssh -g -L5906:lobster:5906 treeves@gw.cita.utoronto.ca
+    4  ssh treeves@cosmo3.cita.utoronto.ca:6
+    5  ssh treeves@cosmo3.cita.utoronto.ca
+    6  /fs/lustre/scratch/USERNAME
+    7  /fs/lustre/scratch/treeves
+    8  cd /fs/lustre/scratch/treeves
+    9  ls
+   10  cd /fs/lustre/scratch/treeves
+   11  /fs/lustre/scratch/treeves
+   12  cd /fs/lustre/scratch/treeves
+   13  ls -l
+   14  ls
+   15  cd 
+   16  cd /fs/lustre/scratch/treeves
+   17  mkdir CTA200_2025
+   18  cd /fs/lustre/scratch/treeves/CTA200_2025
+   19  mkdir assignment_1
+   20  cd /fs/lustre/scratch/treeves/CTA200_2025/assignment_1
+   21  man
+   22  cd /fs/lustre/scratch/treeves/CTA200_2025/assignment_1
+   23  README.md
+   24  create
+   25  touch README.md
+   26  ls
+   27  vi README.md
+   28  ls
+   29  vi README.md 
+   30  cd /fs/lustre/scratch/murray
+   31  ls
+   32  cd /fs/lustre/scratch/murray/bin
+   33  ls
+   34  cd /fs/lustre/scratch/murray/Pictures
+   35  ls
+   36  cd /fs/lustre/scratch/murray/repos
+   37  ls
+   38  cd /fs/lustre/scratch/murray/scratch-2month
+   39  ls
+   40  cd /fs/lustre/scratch/murray/scratch-3month
+   41  ls
+   42  cd /fs/lustre/scratch/murray/src
+   43  ls
+   44  cd /fs/lustre/scratch/murray/test
+   45  ls
+   46  cd /fs/lustre/scratch/murray/tmp
+   47  ls
+   48  cd /fs/lustre/scratch/murray/tmp/test
+   49  ls
+   50  cd /fs/lustre/scratch/murray
+   51  ls
+   52  cp
+   53  cp Hello_world.c
+   54  cp Hello_world.c /fs/lustre/scratch/treeves/CTA_2025/assignment_1
+   55  cp /fs/lustre/scratch/murray Hello_world.c /fs/lustre/scratch/treeves/CTA_2025/assignment_1
+   56  cp /fs/lustre/scratch/murray Hello_world.c /fs/lustre/scratch/treeves/CTA_2025
+   57  cp /fs/lustre/scratch/murray Hello_world.c /fs/lustre/scratch/treeves/CTA200_2025
+   58  cp --help
+   59  cp --copy-contents
+   60  cp --copy-contents Hello_world.c
+   61  cp --copy-contents Hello_world.c /fs/lustre/scratch/treeves/CTA200_2025
+   62  find
+   63  find Hello_world.c
+   64  find Hello_world.py
+   65  -home/murray
+   66  cd -home/murray
+   67  cd /home/murray
+   68  ls
+   69  find Hello_world.py
+   70  find Hello_world.c
+   71  find
+   72  find Hello_world.c
+   73  Hello_world.py
+   74  find Hello_world.py
+   75  cp Hello_world.c /fs/lustre/scratch/treeves/CTA200_2025
+   76  Hello_world.py
+   77  find Hello_world.py
+   78  find "Hello_world.py"
+   79  touch
+   80  touch Hello_world.py
+   81  find "Hello_world.py"
+   82  cd /fs/lustre/scratch/treeves
+   83  ls
+   84  cd /home/murray
+   85  ls
+   86  cd /fs/
+   87  cd
+   88  cd /fs
+   89  ls
+   90  cd /fs/lustre/scratch/treeves/
+   91  /home/murray
+   92  cd /home/murray
+   93  find "Hello_world.py"
+   94  find . -name "Hello_world.py"
+   95  cp . -name /tmp/Hello_world.py /fs/lustre/scratch/treeves/CTA200_2025/assignment_1/
+   96  cp /tmp/Hello_world.py /fs/lustre/scratch/treeves/CTA200_2025/assignment_1
+   97  cp . /tmp/Hello_world.py /fs/lustre/scratch/treeves/CTA200_2025/assignment_1
+   98  cp -name /tmp/Hello_world.py /fs/lustre/scratch/treeves/CTA200_2025/assignment_1
+   99  cp --help
+  100  cp ./tmp/Hello_world.py /fs/lustre/scratch/treeves/CTA200_2025/assignment_1/
+  101  cp ./tmp/Hello_world.c /fs/lustre/scratch/treeves/CTA200_2025/assignment_1/
+  102  find . -name Hello_world.c
+  103  cp ./Papers/tmp/Hello_world.c /fs/lustre/scratch/treeves/CTA200_2025/assignment_1/
+  104  cd /fs/lustre/scratch/treeves/CTA200_2025/assignment_1/
+  105  ls
+  106  mv
+  107  mv Hello_world.c
+  108  mv --help
+  109  mv Hello_world.c Hello_world_reeves.c
+  110  ls
+  111  mv Hello_world.py Hello_world_reeves.py
+  112  gcc Hello_world_reeves.c -o Hello_world.x
+  113  ls
+  114  run
+  115  Hello_world.x
+  116  chmod a+x
+  117  chmod a+x Hello_world.x
+  118  chmod a+x Hello_world_reeves.py
+  119  chmod --help
+  120  ls
+  121  run
+  122  gcc
+  123  path
+  124  run
+  125  ./Hello_world.x
+  126  module avail
+  127  module avail python
+  128  module load python/3.10.2
+  129  python
+  130  module load python/3.10.2
+  131  python
+  132  python Hello_world_reeves.py
+  133  vi Hello_world_reeves.py
+  134  vi Hello_world.x
+  135  vi Hello_world_reeves.c
+  136  gcc Hello_world_reeves.c -o Hello_world.x
+  137  ./Hello_world.x
+  138  python Hello_world_reeves.py
+  139  pipe
+  140  ./Hello_world.x > output_c.txt
+  141  ls
+  142  python Hello_world_reeves.py > output_python.txt
+  143  history
+  144  history > history.txt
